@@ -123,7 +123,26 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
        let resultViewController:ResultViewController = segue.destination as! ResultViewController
            
-           resultViewController.image = imageArray[nowIndex]
+        if (timer == nil){
+            resultViewController.image = imageArray[nowIndex]
+        }
+        else{
+            progressButton.isEnabled = true
+            backButton.isEnabled = true
+            
+            //タイマーを停止する
+            timer.invalidate()
+    
+            //タイマーを削除
+            timer = nil
+            
+            //ボタンの名前を再生に直す
+            startButton.setTitle("再生", for: .normal)
+            
+            resultViewController.image = imageArray[nowIndex]
+            
+        }
+            
            
       
    }

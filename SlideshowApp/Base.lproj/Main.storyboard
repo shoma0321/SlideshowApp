@@ -27,10 +27,10 @@
                                 </connections>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dUd-zK-YPV">
-                                <rect key="frame" x="20" y="834" width="374" height="28"/>
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBf-XV-AgN">
-                                        <rect key="frame" x="0.0" y="0.0" width="53" height="28"/>
+                                        <rect key="frame" x="0.0" y="98.5" width="53" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="進む"/>
                                         <connections>
@@ -38,7 +38,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylg-1V-DMS">
-                                        <rect key="frame" x="160.5" y="0.0" width="53" height="28"/>
+                                        <rect key="frame" x="160.5" y="98.5" width="53" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="再生"/>
                                         <connections>
@@ -46,7 +46,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rf-1t-KQV">
-                                        <rect key="frame" x="321" y="0.0" width="53" height="28"/>
+                                        <rect key="frame" x="321" y="98.5" width="53" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="戻る"/>
                                         <connections>
@@ -61,9 +61,9 @@
                         <constraints>
                             <constraint firstItem="Vgx-aA-ThF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="0hj-o0-uOX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dUd-zK-YPV" secondAttribute="bottom" id="2vl-f2-rgj"/>
+                            <constraint firstItem="dUd-zK-YPV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="300" id="4g4-7q-91C"/>
                             <constraint firstItem="Vgx-aA-ThF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="ISr-pN-jfZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dUd-zK-YPV" secondAttribute="trailing" constant="20" id="LUF-Fe-Hqo"/>
-                            <constraint firstItem="dUd-zK-YPV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="400" id="MOf-ix-6BK"/>
                             <constraint firstItem="dUd-zK-YPV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aUy-51-xd1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vgx-aA-ThF" secondAttribute="trailing" constant="50" id="kj2-a8-Muq"/>
                         </constraints>

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SlideshowApp
 //
-//  Created by 伊藤 奨真 on 2022/05/12.
+//  Created by 伊藤 奨真 on 2022/05/05.
 //
 
 import UIKit
